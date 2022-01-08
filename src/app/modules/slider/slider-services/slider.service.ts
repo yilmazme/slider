@@ -7,7 +7,6 @@ import { Product } from 'src/models/Product';
   providedIn: 'root',
 })
 export class SliderService {
-  apiUrl = 'http://localhost:';
 
   constructor(private http: HttpClient) {}
 
